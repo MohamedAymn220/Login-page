@@ -1,0 +1,104 @@
+/* Reset بسيط */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#x {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 250px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+#x button {
+  padding: 15px;
+  font-size: 18px;
+  background-color: #047c22;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#x button:hover {
+  background-color: #bbac08;
+}
+
+
+body {
+  background: linear-gradient(135deg, rgb(219, 234, 254), rgb(240, 249, 255));
+  font-family: Arial, sans-serif;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+h1 {
+  margin-bottom: 20px;
+  color: #1e40af;
+}
+
+form {
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+fieldset {
+  border: none;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #1e3a8a;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #3b82f6;
+  outline: none;
+  box-shadow: 0 0 5px rgba(59, 130, 246, 0.5);
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #2563eb;
+}
+
+#wellcome {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #10b981;
+}
+}
